@@ -17,12 +17,10 @@ namespace WindowsFormsApp1
             InitializeComponent();         
         }
 
-       
         private void Form3_FormClosing(object sender, FormClosingEventArgs e)
         {
             e.Cancel = true;
             this.Hide();
         }
-
     }
 }

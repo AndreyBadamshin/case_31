@@ -14,16 +14,14 @@ namespace WindowsFormsApp1
     {
         public Form2()
         {
-            InitializeComponent();
-            
+            InitializeComponent();            
         }
+        
 
-       
         private void Form2_FormClosing(object sender, FormClosingEventArgs e)
         {
             e.Cancel = true;
             this.Hide();
         }
-
     }
 }
